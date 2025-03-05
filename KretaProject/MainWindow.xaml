@@ -8,6 +8,9 @@
         xmlns:local="clr-namespace:KretaProject"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-    </Grid>
+    <StackPanel>
+        <view:ControlPanelView />
+        <view:StudentView />
+        <view:SchoolClassView />
+    </StackPanel>
 </Window>
